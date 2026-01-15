@@ -1,0 +1,207 @@
+<!-- anasayfa -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>02July Kafe - Anasayfa</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header class="baslik-alani">
+    <div class="logo-yazi">02JULY KAFE</div>
+<ul class="ust-menu">
+
+  <!-- ANASAYFA DROPDOWN -->
+  <li class="dropdown">
+    <a href="anasayfa.html" class="dropbtn">Anasayfa</a>
+    <ul class="dropdown-menu">
+      <li><a href="anasayfa.html">Ana Sayfa</a></li>
+      <li><a href="menu.html">Menü</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+      <li><a href="hesabim.html">Hesabım</a></li>
+      <li><a href="sepet.html">Sepet</a></li>
+    </ul>
+  </li>
+
+  <!-- MENÜ DROPDOWN -->
+  <li class="dropdown">
+    <a href="menu.html" class="dropbtn">Menü</a>
+    <ul class="dropdown-menu">
+      <li><a href="menu.html#sicak-kahve">Sıcak Kahveler</a></li>
+      <li><a href="menu.html#soguk-kahve">Soğuk Kahveler</a></li>
+      <li><a href="menu.html#tatlilar">Tatlılar</a></li>
+      <li><a href="menu.html#atistirmalik">Atıştırmalıklar</a></li>
+    </ul>
+  </li>
+
+  <!-- Normal sayfalar -->
+  <li><a href="iletisim.html">İletişim</a></li>
+  <li><a href="hakkimizda.html">Hakkımızda</a></li>
+  <li><a href="hesabim.html">Hesabım</a></li>
+
+  <!-- Sepet -->
+  <li class="sepet-link">
+    <a href="sepet.html">
+      Sepet
+      <span id="sepetSayac">0</span>
+    </a>
+  </li>
+
+</ul>
+
+</header>
+
+<main class="sayfa-icerik">
+   
+    <div class="anasayfa-icerik">
+        <div class="anasayfa-metin">
+            <h1 class="metin-baslik">02July'a Hoş Geldiniz</h1>
+            <p class="metin-yazi">
+                02July, kahve tutkunları için özenle hazırlanmış özel bir kafedir.
+                Sakin, şık ve premium bir ortamda taze çekilmiş kahvelerimizi tadabilirsiniz.
+            </p>
+            <p class="metin-yazi">
+                Menümüzde sıcak kahveler, soğuk kahveler, tatlılar ve daha fazlası sizi bekliyor.
+                Arkadaşlarınızla sohbet ederken veya ders çalışırken keyifli vakit geçirebilirsiniz.
+            </p>
+            <button class="ana-buton" onclick="window.location.href='menu.html'">
+                Menüyü Görüntüle
+            </button>
+
+          
+            <div class="ana-logo-bolumu">
+                <p class="ana-logo-yazi">02July logosu</p>
+
+                <div class="ana-logo-kutu">
+                   
+                    <img class="click-zoom" src="img/logo.png" alt="02July Logo">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="anasayfa-fotograf-alani">
+           
+            <img class="click-zoom" src="img/kafe.jpg" alt="02July Kafe" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+    </div>
+
+   
+    <section class="anasayfa-alt-bolum">
+        <section class="yorumlar-bolumu">
+            <h2 class="alt-baslik">Misafirlerimiz Ne Diyor?</h2>
+            <div class="yorumlar-listesi">
+                <div class="yorum-kutu">
+                    <p class="yorum-metin">"Kahveler harika, ortam çok sakin. Dersten sonra uğramak için ideal."</p>
+                    <p class="yorum-isim">- gülse</p>
+                </div>
+                <div class="yorum-kutu">
+                    <p class="yorum-metin">"Tatlılar taze ve sunumlar çok şık, fiyatlar da öğrenci dostu."</p>
+                    <p class="yorum-isim">- ramazan</p>
+                </div>
+                <div class="yorum-kutu">
+                    <p class="yorum-metin">"Wi-Fi hızlı, müzikler rahatsız etmiyor. Saatlerce oturulacak bir yer."</p>
+                    <p class="yorum-isim">- seyyid</p>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="galeri-bolumu">
+            <h2 class="alt-baslik">Kafemizden Kareler</h2>
+            <div class="galeri-listesi">
+                <div class="galeri-kutu">
+                  
+                    <img class="click-zoom" src="img/gulse.png" alt="İç mekan" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="galeri-kutu">
+                    <img class="click-zoom" src="img/bahçe.jpg" alt="Latte" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="galeri-kutu">
+                    <img class="click-zoom" src="img/iç dizayn.jpg" alt="Tatlılar" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="galeri-kutu">
+                    <img class="click-zoom" src="img/şömine.jpg" alt="Şömine" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+                <div class="galeri-kutu">
+                    <img class="click-zoom" src="img/latte.jpg" alt="Latte" style="width:100%; height:100%; object-fit:cover;">
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+
+
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-col brand">
+        <a class="footer-logo" href="anasayfa.html">02July</a>
+        <p class="footer-text">
+          Specialty coffee & tatlılar. Günün kahvesi, taze pastry ve sıcak bir atmosfer.
+        </p>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram" class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2zm0 2A1.8 1.8 0 1 0 13.8 12 1.8 1.8 0 0 0 12 10.2zM17.6 6.7a.9.9 0 1 1-.9.9.9.9 0 0 1 .9-.9z"/></svg>
+          </a>
+          <a href="#" aria-label="X" class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.9-6.4L6.3 22H2l7.4-8.5L1 2h6.3l4.5 5.9L18.9 2zm-1.1 18h1.7L7.1 3.9H5.3L17.8 20z"/></svg>
+          </a>
+          <a href="#" aria-label="Maps" class="social-link">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hızlı Menü</h4>
+        <ul class="footer-links">
+          <li><a href="anasayfa.html">Ana Sayfa</a></li>
+          <li><a href="menu.html">Menü</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>İletişim</h4>
+        <ul class="footer-info">
+          <li><span>Adres:</span> Tunalı / Ankara</li>
+          <li><span>Telefon:</span> +90 555 048 78 70</li>
+          <li><span>Saatler:</span> 09:00 – 23:00</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Bülten</h4>
+        <p class="footer-text">Yeni ürünler ve kampanyalar için e-posta bırak.</p>
+        <form class="footer-form" action="#" method="post">
+          <input type="email" name="email" placeholder="E-posta adresin" required />
+          <button type="submit">Katıl</button>
+        </form>
+        <small class="footer-note">Spam yok. İstediğin an çıkabilirsin.</small>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> 02July. Tüm hakları saklıdır.</p>
+      <div class="bottom-links">
+        <a href="#">Gizlilik</a>
+        <a href="#">KVKK</a>
+        <a href="#">Çerezler</a>
+      </div>
+    </div>
+  </footer>
+
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Kapat">×</button>
+  <img id="lbImg" alt="">
+</div>
+
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
